@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Problema</title>
+    <!-- Confeccionar un formulario que solicite el ingreso del nombre de una persona y un control select (en este último
+    permitir la selección de los ingresos mensuales de la persona: 1-1000,1001-3000,>3000)
+    En la página que procesa el formulario mostrar un mensaje si debe pagar impuestos a las ganancias (si supera 3000) -->
+  </head>
+  
+  <body>
+    <form action="pagina2.php" method="post">
+      Dame tu nombre:
+      <input type="text" name="valor1">
+      <br>
+      <label for="ingresos">Selecciona tus ingresos mensuales:</label>
+      <select id="ingresos" name="ingresos">
+        <option value="1-1000">1-1000</option>
+        <option value="1001-3000">1001-3000</option>
+        <option value=">3000">+3000</option>
+        
+        <input type="submit">
+    </form>
+
+  </body>
+  
+  </html>
