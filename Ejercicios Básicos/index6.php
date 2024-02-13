@@ -8,7 +8,6 @@
 <body>
     
     <?php 
-        /* Concatenaciones  */
         $int= 15; 
         $int2= 20; 
         $int3= 25;

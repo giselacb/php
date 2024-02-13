@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Información sobre el producto</h2>
+
+    <form action="action.php" method="POST">
+        <fieldset>
+            <legend>Datos coche</legend>
+            <label>Marca:</label><br>
+            <input type="text" name="marca" size="50"><br><br>
+            <label>Modelo:</label><br>
+            <input type="text" name="modelo" size="50">
+            <!--<label >Foto</label><input type="text" id="foto" name="fname" size="10">
+    <input type="submit" value="Elejir...">-
+    <br><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label > Añadir contador de visitas</label><br>-->
+        </fieldset><br>
+        <fieldset>
+            <legend>Datos económicos</legend>
+            <label>Precio</label>
+            <input type="text" name="precio" size="4">
+            <label>€</label>
+            <label>Impuestos</label>
+            <select name="impuesto">
+                <option value="4" selected="selected">4%</option>
+                <option value="7">7%</option>
+                <option value="16">16%</option>
+                <option value="25">25%</option>
+            </select><br><br>
+            <p>Promoción</p>
+            <input type="radio" name="promocion" value="1" checked>
+            <label>Ninguno</label><br>
+            <input type="radio" name="promocion" value="2">
+            <label>Transporte gratuito</label><br>
+            <input type="radio" name="promocion" value="3">
+            <label>Descuento 5%</label><br>
+            <button type="submit" value="insert" name="insert">Upload</button>
+            <button type="submit" value="list" name="list">Ver registros</button>
+
+        </fieldset>
+        <fieldset>
+            <legend>Buscar Coche</legend>
+            <label>Marca:</label><br>
+            <input type="text" name="buscar_marca" size="50">
+            <button type="submit" value="select" name="select">Buscar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Borrar Marca</legend>
+            <label>Marca:</label><br>
+            <input type="text" name="borrar_marca" size="50">
+            <button type="submit" value="borrar" name="borrar">Borrar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Borrar Todos los coches</legend>
+            <button type="submit" value="borrar_todo" name="borrar_todo">BORRAR TODO</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Editar Precio de Vehiculo</legend>
+            <label>Marca:</label><br>
+            <input type="text" name="editar_marca" size="50"><br>
+            <label>Modelo:</label><br>
+            <input type="text" name="editar_modelo" size="50"><br><br>
+            <button type="submit" value="editar" name="editar">Editar</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de alumnos</h1>
+  <form action="pagina2.php" method="post">
+    Ingrese nombre:
+    <input type="text" name="nombre"><br><br>
+    Ingrese mail:
+    <input type="email" name="email"><br><br>
+    Seleccione el curso:
+    <select name="codigocurso">
+      <option value="1">PHP</option>
+      <option value="2">ASP</option>
+      <option value="3">JSP</option>
+    </select> <br>
+    <br>
+    Dime cuántas veces quiere que inserte un alumno:
+    <input type="number" name="numerico"><br><br>
+    <input type="submit" value="Registrar">
+  </form>
+</body>
+</html>
